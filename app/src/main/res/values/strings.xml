@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">DePaul</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">News</string>
+    <string name="about1">
+        De Paul School is co-educational institution established and run by De Paul Education of
+            Society which is a registered charitable body unde the juridiction of "San Thome Vincentian Society Rewa(M.P)".It is a minority institution and is run in collaboration with Rev. Sisters of Franciscan Clarist Congregation
+            ,Noida.The school is named after "St.Vincent De Paul", the patron of the world wide charitable works.His mission and vision
+            inspire us to lead thousands from darkness of ignorance to light of knowledge-"THAMASOMA JYOTIRGAMAYA".\n\n
+            Status-It is an unaided English Medium school affliated to the CISCE,New Delhi.
+    </string>
+    <string name="about2">
+        AIM OF THE SCHOOL\n
+            The school aims at academic excellence, development of skills, and character formation based on the golden percept
+            -Service to man is service to God. We train the children to grow into active useful and worthy citizen of the country.
+    </string>
+    <string name="about3">
+        English is the medium of instruction,communication and examination.The curriculum includes English,Hindi,Mathematics,physics,Chemistry etc.
+    </string>
+
+
+    <string name="policy1">
+    1.For the smooth running of the school,our primary concern and special attention is to ensure a high
+    standard of morality and dicipline among the students.\n\n
+    2.Pupils must show gentleness and coutesy to the companions
+    .Refined manners,uprightness and self restraint should distinguish every
+    student of the school.\n\n
+    3.Personal cleaniness in ones whole personality is expected.The uniform
+    must be clean and neatly pressed,shoes well polished, finger nails pared and hair combed.
+    School uniform is compulsaryon all working days and at the school function and even for special classes.\n\n
+    4.Pupils are responsible for the safe custody of the books and belongings.
+    Each article should be markedwith ones name and roll number.It is not advisable for the pupil to
+    to bring money and other valuables to the school.\n\n
+    5.Bullying and use of vulgar language are punishable offence.\n\n
+    6.Student are supposed to speak only in Emglish atleast in school campus.\n\n
+    7.The pupils ewill see that the class premises is kept clean and tidy.\n\n
+    8.Before each terminal exam all dues must be clear.\n\n
+    9.The result will not be issued until all the dues are paid in full.\n\n
+    10. Any damge to the property will have to be made good. The decisions of the principal regarding the amount finedis final.\n\n
+    11.Student should get their Progress Report of Quaterly and Half Yearly exams signed by the parents
+    and return within the days of its reciept.\n
+</string>
+
+
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_curr">Lesson</string>
+    <string name="title_activity_events">Event</string>
+    <string name="title_activity_facebook">Facebook</string>
+    <string name="title_activity_lesson">Curriculum</string>
+    <string name="title_activity_photos">Photo Gallery</string>
+    <string name="title_activity_policy">Policies</string>
+    <string name="title_activity_sports">Sports</string>
+    <string name="title_activity_twitter">Twitter</string>
+    <string name="title_activity_teacher">Teacher</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_class12">Class 12</string>
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+    <string name="arrow_contentDescription">Expand list item arrow</string>
+
+    <!-- Sample Toolbar -->
+    <string name="no_animation">No animation</string>
+    <string name="spinner_adapter_time_s">1 s</string>
+    <string name="spinner_adapter_time_ms">%1$d ms</string>
+
+    <string name="address">
+        Dataganj Road, Budaun,UP,India\n
+        Pincode:        243601\n
+        Phone Number:   05832-224472\n
+        Website:        www.depaulbudaun.edu.in\n
+        email:          depaulbuduan@gmail.com\n
+    </string>
+</resources>

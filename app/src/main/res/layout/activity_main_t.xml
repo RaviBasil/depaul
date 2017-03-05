@@ -1,0 +1,263 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:gravity="center">
+        <!--Row 1 start-->
+        <TableRow
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <!--Row 1 col 1 start-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/about_Button"
+                    android:onClick="startAboutActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About us"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+
+
+            <!--Row 1 col 3 start-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/events"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/events_Button"
+                    android:onClick="startEventActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+
+        </TableRow>
+        <!--Row 1 end-->
+        <!--Row 2 start-->
+        <TableRow
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <!--Row 2 col 1 start-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/teachers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/teacher_Button"
+                    android:onClick="startTeacherFragment"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teachers"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+                        <!--Row 2 col 2 start-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/policies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/policies_Button"
+                    android:onClick="startPolicyActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policies"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+            <!--Row 2 col 3 start-->
+
+        </TableRow>
+        <!--Row 3 start-->
+        <TableRow
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <!--Row 3 col 1 start-->
+            <!--Row 3 col 2 start-->
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageButton
+                android:background="@null"
+                android:src="@mipmap/currc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/curricu_Button"
+                android:onClick="startCurriculumtActivity"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curriculum"
+                android:textColor="#ffff"
+                android:textSize="@dimen/text_dimen"/>
+        </LinearLayout>
+            <!--Row 3 col 3 start-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/lessons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lesson_Button"
+                    android:onClick="startLessonsActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lessons"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+
+        </TableRow>
+        <!--Row 4 start-->
+        <TableRow
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/photos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/photos_Button"
+                    android:onClick="startPhotosActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Photos"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <!-- Row 4 col 1-->
+            <!--Row 4 col 2-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/news_Button"
+                    android:onClick="startNewsActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+            <!--Row 4 col 3-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:background="@null"
+                    android:src="@mipmap/contacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/contact_Button"
+                    android:onClick="startContactActivity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contacts"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/text_dimen"/>
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

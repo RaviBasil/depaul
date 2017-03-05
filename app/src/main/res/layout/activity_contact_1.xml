@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ba1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:src="@drawable/main_logo"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+    <TextView
+
+        android:textColor="#050505"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="De Paul School"
+        android:textStyle="bold|italic"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:textSize="17dp"
+        android:textColor="#050505"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Affiliated to CISCE,New Delhi)"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#050505"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by ---Ravi Basil"
+            android:textColor="#fc0707"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="any suggestion Plz whatsapp -8899414819.or mail-ravi09basil@rediffmail.com"
+            android:textColor="#fc0707"/>
+</LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
